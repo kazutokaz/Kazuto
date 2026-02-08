@@ -1,0 +1,20 @@
+
+# secrets
+.env
+
+# local data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# secrets (never commit)
+jwt_secret.txt
+.secrets/
